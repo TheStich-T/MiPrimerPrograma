@@ -2,7 +2,7 @@ package org.antonyperez.controller;
 import java.util.Scanner;
 /**
  *
- * @author Antony Perez
+ * @author Antony Perez - 2023350
  */
 public class ControllerTexto {
 Scanner sc = new Scanner(System.in);
