@@ -86,6 +86,26 @@ Scanner sc = new Scanner(System.in);
 
                     break;
                     }
+                    case 5 -> {
+
+                    String nombreCompleto;
+
+                    System.out.print("Ingrese su nombre completo: ");
+                    nombreCompleto = sc.nextLine();
+
+                    String[] partes = nombreCompleto.split(" ");
+
+                    System.out.print("Iniciales: ");
+
+                    for (int i = 0; i < partes.length; i++) {
+
+                        System.out.print(partes[i].charAt(0) + " ");
+                    }
+
+                    System.out.println();
+
+                    break;
+                    }
 
                     
                     
