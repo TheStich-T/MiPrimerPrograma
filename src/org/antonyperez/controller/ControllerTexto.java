@@ -175,10 +175,13 @@ Scanner sc = new Scanner(System.in);
 
                     break;
                     }
-                }
+                    
+                    case 10 ->{
 
-                    
-                    
+                    System.out.println("Programa finalizado");
+
+                    break;
+                }
                     case 0 -> System.out.println("Saliendo del programa...");
                     
                     default -> System.out.println("Opción inválida");
