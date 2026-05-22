@@ -61,6 +61,32 @@ Scanner sc = new Scanner(System.in);
 
                     break;
                     }
+                    case 4 -> {
+
+                    String frase;
+                    int vocales = 0;
+
+                    System.out.print("Ingrese un texto: ");
+                    frase = sc.nextLine();
+
+                    frase = frase.toLowerCase();
+
+                    for (int i = 0; i < frase.length(); i++) {
+
+                        char letra = frase.charAt(i);
+
+                        if (letra == 'a' || letra == 'e' || letra == 'i'
+                                || letra == 'o' || letra == 'u') {
+
+                            vocales++;
+                        }
+                    }
+
+                    System.out.println("Cantidad de vocales: " + vocales);
+
+                    break;
+                    }
+
                     
                     
                     case 0 -> System.out.println("Saliendo del programa...");
