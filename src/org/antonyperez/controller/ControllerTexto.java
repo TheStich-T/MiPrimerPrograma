@@ -97,9 +97,8 @@ Scanner sc = new Scanner(System.in);
 
                     System.out.print("Iniciales: ");
 
-                    for (int i = 0; i < partes.length; i++) {
-
-                        System.out.print(partes[i].charAt(0) + " ");
+                    for (String parte : partes) {
+                        System.out.print(parte.charAt(0) + " ");
                     }
 
                     System.out.println();
@@ -138,6 +137,26 @@ Scanner sc = new Scanner(System.in);
 
                     break;
                     }
+                    
+                     case 8 -> {
+
+                    String repetir;
+                    int veces;
+
+                    System.out.print("Ingrese una palabra: ");
+                    repetir = sc.nextLine();
+
+                    System.out.print("Cuantas veces repetir: ");
+                    veces = sc.nextInt();
+                    sc.nextLine();
+
+                    for (int i = 1; i <= veces; i++) {
+
+                        System.out.println(repetir);
+                    }
+
+                    break;
+                }
 
                     
                     
