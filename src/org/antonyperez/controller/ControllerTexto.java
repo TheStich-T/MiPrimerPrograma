@@ -31,6 +31,19 @@ Scanner sc = new Scanner(System.in);
                         System.out.print("Ingrese su apellido: ");
                         String apellido = sc.nextLine();
                         System.out.println("Nombre completo: " + nombre + " " + apellido);
+                        break;
+                    }
+                    case 2 -> {
+                         String texto;
+                        System.out.println("Vamos a ver la longitud de tu palabra");
+                    System.out.print("Ingrese un palabra: ");
+                    texto = sc.nextLine();
+
+                    System.out.println("La longitud es: " + texto.length());
+
+                    break;
+
+                    
                     }
                     
                     case 0 -> System.out.println("Saliendo del programa...");
