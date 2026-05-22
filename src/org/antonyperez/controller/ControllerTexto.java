@@ -65,7 +65,7 @@ Scanner sc = new Scanner(System.in);
 
                     String frase;
                     int vocales = 0;
-
+                        System.out.println("Vamos a contar las vocales");
                     System.out.print("Ingrese un texto: ");
                     frase = sc.nextLine();
 
@@ -87,7 +87,7 @@ Scanner sc = new Scanner(System.in);
                     break;
                     }
                     case 5 -> {
-
+                        System.out.println("Vamos a sacar tus iniciales ");
                     String nombreCompleto;
 
                     System.out.print("Ingrese su nombre completo: ");
@@ -106,7 +106,7 @@ Scanner sc = new Scanner(System.in);
                     break;
                     }
                     case 6 -> {
-
+                        System.out.println("Te va mos a devlovler las mayusculas de tu Texto");
                     String mayusculas;
 
                     System.out.print("Ingrese un texto: ");
@@ -118,7 +118,7 @@ Scanner sc = new Scanner(System.in);
                     }
                     
                     case 7 -> {
-
+                        System.out.println("Aqui convertimos a binario");
                     int numero;
 
                     System.out.print("Ingrese un numero: ");
@@ -139,7 +139,7 @@ Scanner sc = new Scanner(System.in);
                     }
                     
                      case 8 -> {
-
+                         System.out.println("Aqui es un repetidor de palabras");
                     String repetir;
                     int veces;
 
@@ -158,7 +158,7 @@ Scanner sc = new Scanner(System.in);
                     break;
                      }
                     case 9 -> {
-
+                        System.out.println("Validador de PassWord");
                     String password;
 
                     System.out.print("Ingrese una contraseña: ");
@@ -177,7 +177,7 @@ Scanner sc = new Scanner(System.in);
                     }
                     
                     case 10 ->{
-
+                        System.out.println("Aqui te creamos tu Email");
                     System.out.println("Programa finalizado");
 
                     break;
