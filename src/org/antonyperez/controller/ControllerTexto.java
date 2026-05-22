@@ -117,6 +117,27 @@ Scanner sc = new Scanner(System.in);
 
                     break;
                     }
+                    
+                    case 7 -> {
+
+                    int numero;
+
+                    System.out.print("Ingrese un numero: ");
+                    numero = sc.nextInt();
+
+                    System.out.println("Binario: " + Integer.toBinaryString(numero));
+
+                    if (numero % 2 == 0) {
+
+                        System.out.println("Es PAR");
+
+                    } else {
+
+                        System.out.println("Es IMPAR");
+                    }
+
+                    break;
+                    }
 
                     
                     
