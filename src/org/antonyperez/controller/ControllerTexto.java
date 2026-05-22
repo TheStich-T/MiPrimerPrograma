@@ -42,9 +42,26 @@ Scanner sc = new Scanner(System.in);
                     System.out.println("La longitud es: " + texto.length());
 
                     break;
-
-                    
                     }
+                    
+                    case 3 -> {
+
+                    String palabra;
+                    String invertido = "";
+                        System.out.println("Vamos a invertir tu texto aqui: ");
+                    System.out.print("Ingrese un texto: ");
+                    palabra = sc.nextLine();
+
+                    for (int i = palabra.length() - 1; i >= 0; i--) {
+
+                        invertido = invertido + palabra.charAt(i);
+                    }
+
+                    System.out.println("Texto invertido: " + invertido);
+
+                    break;
+                    }
+                    
                     
                     case 0 -> System.out.println("Saliendo del programa...");
                     
