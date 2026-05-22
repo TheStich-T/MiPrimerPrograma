@@ -156,6 +156,25 @@ Scanner sc = new Scanner(System.in);
                     }
 
                     break;
+                     }
+                    case 9 -> {
+
+                    String password;
+
+                    System.out.print("Ingrese una contraseña: ");
+                    password = sc.nextLine();
+
+                    if (password.length() >= 8) {
+
+                        System.out.println("Password valida");
+
+                    } else {
+
+                        System.out.println("Password muy corta");
+                    }
+
+                    break;
+                    }
                 }
 
                     
