@@ -106,6 +106,17 @@ Scanner sc = new Scanner(System.in);
 
                     break;
                     }
+                    case 6 -> {
+
+                    String mayusculas;
+
+                    System.out.print("Ingrese un texto: ");
+                    mayusculas = sc.nextLine();
+
+                    System.out.println("En mayusculas: " + mayusculas.toUpperCase());
+
+                    break;
+                    }
 
                     
                     
